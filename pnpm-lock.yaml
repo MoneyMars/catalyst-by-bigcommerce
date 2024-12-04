@@ -118,8 +118,8 @@ importers:
         specifier: ^11.0.2
         version: 11.0.2
       lucide-react:
-        specifier: ^0.464.0
-        version: 0.464.0(react@19.0.0-rc-5c56b873-20241107)
+        specifier: ^0.465.0
+        version: 0.465.0(react@19.0.0-rc-5c56b873-20241107)
       next:
         specifier: 15.0.3
         version: 15.0.3(@playwright/test@1.49.0)(react-dom@19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107))(react@19.0.0-rc-5c56b873-20241107)
@@ -161,7 +161,7 @@ importers:
         version: 2.5.5
       tailwindcss-radix:
         specifier: ^3.0.5
-        version: 3.0.5(tailwindcss@3.4.15)
+        version: 3.0.5(tailwindcss@3.4.16)
       uuid:
         specifier: ^11.0.3
         version: 11.0.3
@@ -189,7 +189,7 @@ importers:
         version: 1.49.0
       '@tailwindcss/container-queries':
         specifier: ^0.1.1
-        version: 0.1.1(tailwindcss@3.4.15)
+        version: 0.1.1(tailwindcss@3.4.16)
       '@types/gtag.js':
         specifier: ^0.0.20
         version: 0.0.20
@@ -215,8 +215,8 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       dotenv:
-        specifier: ^16.4.6
-        version: 16.4.6
+        specifier: ^16.4.7
+        version: 16.4.7
       dotenv-cli:
         specifier: ^7.4.4
         version: 7.4.4
@@ -230,17 +230,17 @@ importers:
         specifier: ^8.4.49
         version: 8.4.49
       prettier:
-        specifier: ^3.4.1
-        version: 3.4.1
+        specifier: ^3.4.2
+        version: 3.4.2
       prettier-plugin-tailwindcss:
         specifier: ^0.6.9
-        version: 0.6.9(prettier@3.4.1)
+        version: 0.6.9(prettier@3.4.2)
       tailwindcss:
-        specifier: ^3.4.15
-        version: 3.4.15
+        specifier: ^3.4.16
+        version: 3.4.16
       tailwindcss-animate:
         specifier: 1.0.7
-        version: 1.0.7(tailwindcss@3.4.15)
+        version: 1.0.7(tailwindcss@3.4.16)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -270,11 +270,11 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       prettier:
-        specifier: ^3.4.1
-        version: 3.4.1
+        specifier: ^3.4.2
+        version: 3.4.2
       tsup:
         specifier: ^8.3.5
-        version: 8.3.5(@swc/core@1.9.3(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0)
+        version: 8.3.5(@swc/core@1.10.0(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -300,8 +300,8 @@ importers:
         specifier: ^13.0.1
         version: 13.0.1
       dotenv:
-        specifier: ^16.4.6
-        version: 16.4.6
+        specifier: ^16.4.7
+        version: 16.4.7
       fs-extra:
         specifier: ^11.2.0
         version: 11.2.0
@@ -337,11 +337,11 @@ importers:
         specifier: workspace:^
         version: link:../eslint-config-catalyst
       '@swc/core':
-        specifier: ^1.9.3
-        version: 1.9.3(@swc/helpers@0.5.15)
+        specifier: ^1.10.0
+        version: 1.10.0(@swc/helpers@0.5.15)
       '@swc/jest':
         specifier: ^0.2.37
-        version: 0.2.37(@swc/core@1.9.3(@swc/helpers@0.5.15))
+        version: 0.2.37(@swc/core@1.10.0(@swc/helpers@0.5.15))
       '@types/fs-extra':
         specifier: ^11.0.4
         version: 11.0.4
@@ -370,11 +370,11 @@ importers:
         specifier: ^2.6.6
         version: 2.6.6(@types/node@20.17.9)(typescript@5.7.2)
       prettier:
-        specifier: ^3.4.1
-        version: 3.4.1
+        specifier: ^3.4.2
+        version: 3.4.2
       tsup:
         specifier: ^8.3.5
-        version: 8.3.5(@swc/core@1.9.3(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0)
+        version: 8.3.5(@swc/core@1.10.0(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -395,7 +395,7 @@ importers:
         version: 2.8.0(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: ^5.2.1
-        version: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1)
+        version: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.2)
     devDependencies:
       eslint:
         specifier: ^8.57.1
@@ -1939,68 +1939,68 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@swc/core-darwin-arm64@1.9.3':
-    resolution: {integrity: sha512-hGfl/KTic/QY4tB9DkTbNuxy5cV4IeejpPD4zo+Lzt4iLlDWIeANL4Fkg67FiVceNJboqg48CUX+APhDHO5G1w==}
+  '@swc/core-darwin-arm64@1.10.0':
+    resolution: {integrity: sha512-wCeUpanqZyzvgqWRtXIyhcFK3CqukAlYyP+fJpY2gWc/+ekdrenNIfZMwY7tyTFDkXDYEKzvn3BN/zDYNJFowQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.9.3':
-    resolution: {integrity: sha512-IaRq05ZLdtgF5h9CzlcgaNHyg4VXuiStnOFpfNEMuI5fm5afP2S0FHq8WdakUz5WppsbddTdplL+vpeApt/WCQ==}
+  '@swc/core-darwin-x64@1.10.0':
+    resolution: {integrity: sha512-0CZPzqTynUBO+SHEl/qKsFSahp2Jv/P2ZRjFG0gwZY5qIcr1+B/v+o74/GyNMBGz9rft+F2WpU31gz2sJwyF4A==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.9.3':
-    resolution: {integrity: sha512-Pbwe7xYprj/nEnZrNBvZfjnTxlBIcfApAGdz2EROhjpPj+FBqBa3wOogqbsuGGBdCphf8S+KPprL1z+oDWkmSQ==}
+  '@swc/core-linux-arm-gnueabihf@1.10.0':
+    resolution: {integrity: sha512-oq+DdMu5uJOFPtRkeiITc4kxmd+QSmK+v+OBzlhdGkSgoH3yRWZP+H2ao0cBXo93ZgCr2LfjiER0CqSKhjGuNA==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.9.3':
-    resolution: {integrity: sha512-AQ5JZiwNGVV/2K2TVulg0mw/3LYfqpjZO6jDPtR2evNbk9Yt57YsVzS+3vHSlUBQDRV9/jqMuZYVU3P13xrk+g==}
+  '@swc/core-linux-arm64-gnu@1.10.0':
+    resolution: {integrity: sha512-Y6+PC8knchEViRxiCUj3j8wsGXaIhuvU+WqrFqV834eiItEMEI9+Vh3FovqJMBE3L7d4E4ZQtgImHCXjrHfxbw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-arm64-musl@1.9.3':
-    resolution: {integrity: sha512-tzVH480RY6RbMl/QRgh5HK3zn1ZTFsThuxDGo6Iuk1MdwIbdFYUY034heWUTI4u3Db97ArKh0hNL0xhO3+PZdg==}
+  '@swc/core-linux-arm64-musl@1.10.0':
+    resolution: {integrity: sha512-EbrX9A5U4cECCQQfky7945AW9GYnTXtCUXElWTkTYmmyQK87yCyFfY8hmZ9qMFIwxPOH6I3I2JwMhzdi8Qoz7g==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
 
-  '@swc/core-linux-x64-gnu@1.9.3':
-    resolution: {integrity: sha512-ivXXBRDXDc9k4cdv10R21ccBmGebVOwKXT/UdH1PhxUn9m/h8erAWjz5pcELwjiMf27WokqPgaWVfaclDbgE+w==}
+  '@swc/core-linux-x64-gnu@1.10.0':
+    resolution: {integrity: sha512-TaxpO6snTjjfLXFYh5EjZ78se69j2gDcqEM8yB9gguPYwkCHi2Ylfmh7iVaNADnDJFtjoAQp0L41bTV/Pfq9Cg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-linux-x64-musl@1.9.3':
-    resolution: {integrity: sha512-ILsGMgfnOz1HwdDz+ZgEuomIwkP1PHT6maigZxaCIuC6OPEhKE8uYna22uU63XvYcLQvZYDzpR3ms47WQPuNEg==}
+  '@swc/core-linux-x64-musl@1.10.0':
+    resolution: {integrity: sha512-IEGvDd6aEEKEyZFZ8oCKuik05G5BS7qwG5hO5PEMzdGeh8JyFZXxsfFXbfeAqjue4UaUUrhnoX+Ze3M2jBVMHw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
 
-  '@swc/core-win32-arm64-msvc@1.9.3':
-    resolution: {integrity: sha512-e+XmltDVIHieUnNJHtspn6B+PCcFOMYXNJB1GqoCcyinkEIQNwC8KtWgMqUucUbEWJkPc35NHy9k8aCXRmw9Kg==}
+  '@swc/core-win32-arm64-msvc@1.10.0':
+    resolution: {integrity: sha512-UkQ952GSpY+Z6XONj9GSW8xGSkF53jrCsuLj0nrcuw7Dvr1a816U/9WYZmmcYS8tnG2vHylhpm6csQkyS8lpCw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.9.3':
-    resolution: {integrity: sha512-rqpzNfpAooSL4UfQnHhkW8aL+oyjqJniDP0qwZfGnjDoJSbtPysHg2LpcOBEdSnEH+uIZq6J96qf0ZFD8AGfXA==}
+  '@swc/core-win32-ia32-msvc@1.10.0':
+    resolution: {integrity: sha512-a2QpIZmTiT885u/mUInpeN2W9ClCnqrV2LnMqJR1/Fgx1Afw/hAtiDZPtQ0SqS8yDJ2VR5gfNZo3gpxWMrqdVA==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.9.3':
-    resolution: {integrity: sha512-3YJJLQ5suIEHEKc1GHtqVq475guiyqisKSoUnoaRtxkDaW5g1yvPt9IoSLOe2mRs7+FFhGGU693RsBUSwOXSdQ==}
+  '@swc/core-win32-x64-msvc@1.10.0':
+    resolution: {integrity: sha512-tZcCmMwf483nwsEBfUk5w9e046kMa1iSik4bP9Kwi2FGtOfHuDfIcwW4jek3hdcgF5SaBW1ktnK/lgQLDi5AtA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.9.3':
-    resolution: {integrity: sha512-oRj0AFePUhtatX+BscVhnzaAmWjpfAeySpM1TCbxA1rtBDeH/JDhi5yYzAKneDYtVtBvA7ApfeuzhMC9ye4xSg==}
+  '@swc/core@1.10.0':
+    resolution: {integrity: sha512-+CuuTCmQFfzaNGg1JmcZvdUVITQXJk9sMnl1C2TiDLzOSVOJRwVD4dNo5dljX/qxpMAN+2BIYlwjlSkoGi6grg==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '*'
@@ -2874,8 +2874,8 @@ packages:
     resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.6:
-    resolution: {integrity: sha512-JhcR/+KIjkkjiU8yEpaB/USlzVi3i5whwOjpIRNGi9svKEXZSe+Qp6IWAjFjv+2GViAoDRCUv/QLNziQxsLqDg==}
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
   dotenv@8.6.0:
@@ -4015,12 +4015,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  lilconfig@2.1.0:
-    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
-    engines: {node: '>=10'}
-
-  lilconfig@3.1.2:
-    resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
+  lilconfig@3.1.3:
+    resolution: {integrity: sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==}
     engines: {node: '>=14'}
 
   lines-and-columns@1.2.4:
@@ -4080,8 +4076,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-react@0.464.0:
-    resolution: {integrity: sha512-eCx1qClbnw5qRqB2Z1AFFp71wdJXEwhPp5ii8LviyvHb7o/7eMXFiTyDHh7JpjM9BO9pC6ZUp/c7mCwwxbPIcg==}
+  lucide-react@0.465.0:
+    resolution: {integrity: sha512-uV7WEqbwaCcc+QjAxIhAvkAr3kgwkkYID3XptCHll72/F7NZlk6ONmJYpk+Xqx5Q0r/8wiOjz73H1BYbl8Z8iw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
@@ -4643,8 +4639,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.4.1:
-    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5113,8 +5109,8 @@ packages:
     peerDependencies:
       tailwindcss: ^3.4.1
 
-  tailwindcss@3.4.15:
-    resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
+  tailwindcss@3.4.16:
+    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5779,11 +5775,11 @@ snapshots:
       eslint-plugin-jest-formatting: 3.1.0(eslint@8.57.1)
       eslint-plugin-jsdoc: 50.2.2(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.0(eslint@8.57.1)
-      eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1)
+      eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.2)
       eslint-plugin-react: 7.35.2(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
       eslint-plugin-switch-case: 1.1.2
-      prettier: 3.4.1
+      prettier: 3.4.2
     optionalDependencies:
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -5810,11 +5806,11 @@ snapshots:
       eslint-plugin-jest-formatting: 3.1.0(eslint@8.57.1)
       eslint-plugin-jsdoc: 50.2.2(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.0(eslint@8.57.1)
-      eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1)
+      eslint-plugin-prettier: 5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.2)
       eslint-plugin-react: 7.35.2(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
       eslint-plugin-switch-case: 1.1.2
-      prettier: 3.4.1
+      prettier: 3.4.2
     optionalDependencies:
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -7256,51 +7252,51 @@ snapshots:
       - supports-color
       - typescript
 
-  '@swc/core-darwin-arm64@1.9.3':
+  '@swc/core-darwin-arm64@1.10.0':
     optional: true
 
-  '@swc/core-darwin-x64@1.9.3':
+  '@swc/core-darwin-x64@1.10.0':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.9.3':
+  '@swc/core-linux-arm-gnueabihf@1.10.0':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.9.3':
+  '@swc/core-linux-arm64-gnu@1.10.0':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.9.3':
+  '@swc/core-linux-arm64-musl@1.10.0':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.9.3':
+  '@swc/core-linux-x64-gnu@1.10.0':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.9.3':
+  '@swc/core-linux-x64-musl@1.10.0':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.9.3':
+  '@swc/core-win32-arm64-msvc@1.10.0':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.9.3':
+  '@swc/core-win32-ia32-msvc@1.10.0':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.9.3':
+  '@swc/core-win32-x64-msvc@1.10.0':
     optional: true
 
-  '@swc/core@1.9.3(@swc/helpers@0.5.15)':
+  '@swc/core@1.10.0(@swc/helpers@0.5.15)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.17
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.9.3
-      '@swc/core-darwin-x64': 1.9.3
-      '@swc/core-linux-arm-gnueabihf': 1.9.3
-      '@swc/core-linux-arm64-gnu': 1.9.3
-      '@swc/core-linux-arm64-musl': 1.9.3
-      '@swc/core-linux-x64-gnu': 1.9.3
-      '@swc/core-linux-x64-musl': 1.9.3
-      '@swc/core-win32-arm64-msvc': 1.9.3
-      '@swc/core-win32-ia32-msvc': 1.9.3
-      '@swc/core-win32-x64-msvc': 1.9.3
+      '@swc/core-darwin-arm64': 1.10.0
+      '@swc/core-darwin-x64': 1.10.0
+      '@swc/core-linux-arm-gnueabihf': 1.10.0
+      '@swc/core-linux-arm64-gnu': 1.10.0
+      '@swc/core-linux-arm64-musl': 1.10.0
+      '@swc/core-linux-x64-gnu': 1.10.0
+      '@swc/core-linux-x64-musl': 1.10.0
+      '@swc/core-win32-arm64-msvc': 1.10.0
+      '@swc/core-win32-ia32-msvc': 1.10.0
+      '@swc/core-win32-x64-msvc': 1.10.0
       '@swc/helpers': 0.5.15
 
   '@swc/counter@0.1.3': {}
@@ -7314,10 +7310,10 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@swc/jest@0.2.37(@swc/core@1.9.3(@swc/helpers@0.5.15))':
+  '@swc/jest@0.2.37(@swc/core@1.10.0(@swc/helpers@0.5.15))':
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
-      '@swc/core': 1.9.3(@swc/helpers@0.5.15)
+      '@swc/core': 1.10.0(@swc/helpers@0.5.15)
       '@swc/counter': 0.1.3
       jsonc-parser: 3.3.1
 
@@ -7325,9 +7321,9 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.15)':
+  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.16)':
     dependencies:
-      tailwindcss: 3.4.15
+      tailwindcss: 3.4.16
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -8209,13 +8205,13 @@ snapshots:
   dotenv-cli@7.4.4:
     dependencies:
       cross-spawn: 7.0.6
-      dotenv: 16.4.6
+      dotenv: 16.4.7
       dotenv-expand: 10.0.0
       minimist: 1.2.8
 
   dotenv-expand@10.0.0: {}
 
-  dotenv@16.4.6: {}
+  dotenv@16.4.7: {}
 
   dotenv@8.6.0: {}
 
@@ -8736,10 +8732,10 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1):
+  eslint-plugin-prettier@5.2.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.2):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.4.1
+      prettier: 3.4.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.1
     optionalDependencies:
@@ -9865,9 +9861,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  lilconfig@2.1.0: {}
-
-  lilconfig@3.1.2: {}
+  lilconfig@3.1.3: {}
 
   lines-and-columns@1.2.4: {}
 
@@ -9915,7 +9909,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@0.464.0(react@19.0.0-rc-5c56b873-20241107):
+  lucide-react@0.465.0(react@19.0.0-rc-5c56b873-20241107):
     dependencies:
       react: 19.0.0-rc-5c56b873-20241107
 
@@ -10338,14 +10332,14 @@ snapshots:
 
   postcss-load-config@4.0.2(postcss@8.4.49):
     dependencies:
-      lilconfig: 3.1.2
+      lilconfig: 3.1.3
       yaml: 2.6.0
     optionalDependencies:
       postcss: 8.4.49
 
   postcss-load-config@6.0.1(jiti@2.4.0)(postcss@8.4.49)(yaml@2.6.0):
     dependencies:
-      lilconfig: 3.1.2
+      lilconfig: 3.1.3
     optionalDependencies:
       jiti: 2.4.0
       postcss: 8.4.49
@@ -10388,13 +10382,13 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-tailwindcss@0.6.9(prettier@3.4.1):
+  prettier-plugin-tailwindcss@0.6.9(prettier@3.4.2):
     dependencies:
-      prettier: 3.4.1
+      prettier: 3.4.2
 
   prettier@2.8.8: {}
 
-  prettier@3.4.1: {}
+  prettier@3.4.2: {}
 
   pretty-format@29.7.0:
     dependencies:
@@ -10909,15 +10903,15 @@ snapshots:
 
   tailwind-merge@2.5.5: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@3.4.15):
+  tailwindcss-animate@1.0.7(tailwindcss@3.4.16):
     dependencies:
-      tailwindcss: 3.4.15
+      tailwindcss: 3.4.16
 
-  tailwindcss-radix@3.0.5(tailwindcss@3.4.15):
+  tailwindcss-radix@3.0.5(tailwindcss@3.4.16):
     dependencies:
-      tailwindcss: 3.4.15
+      tailwindcss: 3.4.16
 
-  tailwindcss@3.4.15:
+  tailwindcss@3.4.16:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -10928,7 +10922,7 @@ snapshots:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       jiti: 1.21.6
-      lilconfig: 2.1.0
+      lilconfig: 3.1.3
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
@@ -11032,7 +11026,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.3.5(@swc/core@1.9.3(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0):
+  tsup@8.3.5(@swc/core@1.10.0(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.0):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.24.0)
       cac: 6.7.14
@@ -11051,7 +11045,7 @@ snapshots:
       tinyglobby: 0.2.10
       tree-kill: 1.2.2
     optionalDependencies:
-      '@swc/core': 1.9.3(@swc/helpers@0.5.15)
+      '@swc/core': 1.10.0(@swc/helpers@0.5.15)
       postcss: 8.4.49
       typescript: 5.7.2
     transitivePeerDependencies:
@@ -11169,7 +11163,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.3
       escalade: 3.2.0
-      picocolors: 1.0.1
+      picocolors: 1.1.1
 
   update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
